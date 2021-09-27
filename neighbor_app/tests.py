@@ -9,7 +9,7 @@ class BusinessTest(TestCase):
   def setUp(self):
     self.user = User.objects.create(id=1, username='obonyo')
     self.neighborhood = NeighborHood.objects.create(id=1, name='home')
-    self.busines = Business.objects.create(id=1, name='Moringa business', description='Moringa business description',image='https://cloudinary url',created_at='2021,6,26',updated_at='2021,6,26', neighborhood=self.neighborhood,user=self.user,email='nick@gmail.com')
+    self.busines = Business.objects.create(id=1, name='Moringa business', description='Moringa business description',image='https://cloudinary url',created_at='2021,6,26',updated_at='2021,6,26', neighborhood=self.neighborhood,user=self.user,email='obonyocy@ueab.ac.ke')
 
   def test_instance(self):
     self.assertTrue(isinstance(self.busines, Business))
