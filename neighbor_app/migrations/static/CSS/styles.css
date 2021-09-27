@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yatra+One&family=Zen+Tokyo+Zoo&display=swap");
+.navbar {
+  background-color: rgb(14, 58, 52);
+  color: white;
+}
+nav {
+  width: 100% !important;
+  background-color: rgb(14, 58, 52) !important;
+}
+.banner-items {
+  font-weight: 900;
+  text-shadow: white 0px 0px 10px;
+  color: #208a3f;
+  font-size: 20px;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+}
+.banner {
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dbos9xidr/image/upload/v1627372013/360_F_164610621_ECGZnWSY85ZmeFzzbTIKS8DZg1fDai8f_hkaynv.jpg");
+  margin-right: 0 !important;
+  background-size: cover;
+  height: 60vh;
+  padding-top: 5vh;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: #bae6b9;
+}
+.home {
+  background-image: url('https://res.cloudinary.com/dbos9xidr/image/upload/v1627248828/f8wiq1mbz56lsl8sxyyh.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.profile_picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.text-muted {
+  color: #a1bfa0 !important;
+}
+.forms,
+.panel {
+  padding: 20px;
+  background-color: rgb(14, 58, 52) !important;
+  border-radius: 5px;
+  color: #fed401;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+.nav-link {
+  color: white !important;
+}
+.users {
+  background-color: rgb(14, 58, 52);
+  color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.neighborhood {
+  margin-bottom: 2rem;
+  background-color: #a1bfa0;
+  padding: 2rem;
+}
+.buttons {
+  margin-bottom: 3rem;
+}
+.header {
+  background-color: #a4dda4;
+}
+.my-neighborhood {
+  color: #fed401;
+  border: 2px solid hsla(50, 99%, 50%, 0.699);
+  padding: 5px;
+}
+.my-neighborhood:hover {
+  color: white;
+  text-decoration: none;
+}
+h1,
+h2 {
+  color: #0ef152;
+}
+.button-action {
+  margin-bottom: 2rem !important;
+}
+.nav2 {
+  background-color: hsl(120, 5%, 16%);
+  margin-bottom: 4rem !important;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1084px) {
+  .form-inline > .form-control,
+  .btn {
+    margin-bottom: 1rem !important;
+  }
+  .my-neighborhood {
+    display: none;
+  }
+}
