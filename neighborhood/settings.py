@@ -90,17 +90,15 @@ DATABASES = {
         'NAME': config('DB_NAME'),
         'USER': config('DB_USER'),
         'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': '',
     }
 }
 
-# Email configurations remember to install python-decouple
-EMAIL_USE_TLS=True
-EMAIL_HOST=''
-EMAIL_PORT=487
-EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+# # Email configurations remember to install python-decouple
+# EMAIL_USE_TLS=True
+# EMAIL_HOST=''
+# EMAIL_PORT=487
+# EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
