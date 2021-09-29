@@ -1,12 +1,9 @@
-# Neighbourhood.
+# Neighborhood.
 #### 
 #### **Obonyo Cynthia**
 ## Project Description
-    This project was generated with Angular CLI version 12.1.1.
-    The application includes a  landing page which shows the popular Quote by Mandela and a footer with contact details. 
-    There is also a a form to upload your quotes and also view them. 
-    You can also upvote and downvote a quote.
-    The quote with the highest upvotes is highlighted.
+The project is a web application that allows you to be in the loop about everything happening in your neighborhood. From contact information of different handyman to meeting announcements or even alerts.
+
 
 ## Setup/Installation Requirements
     - Download a file in the code section to the desired folder
@@ -17,14 +14,17 @@
 The application has no backend. Just frontend.
 
 ## BDD
-    A user should;
-    - Create a new quote.
-    - Upvote or downvote a quote.
-    - Delete a quote
-    - See the number of upvotes and number of downvotes for each quote.
+         A user should;
+  - Sign in with the application to start using.
+  -Set up a profile about me and a general location and my neighborhood name.
+  -Find a list of different businesses in my neighborhood.
+  -Find Contact Information for the health department and Police authorities near my neighborhood.
+  -Create Posts that will be visible to everyone in my neighborhood.
+  -Change My neighborhood when I decide to move out.
+  -Only view details of a single neighborhood.
 
 ## Live link
-Deployed project can be accessed here [Neighbourhood]()
+Deployed project can be accessed here [Neighbourhood](https://bella-neighborhood.herokuapp.com/)
 
 ## Known Bugs
     The application works perfectly well, no bugs.
